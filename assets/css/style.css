@@ -1,0 +1,13 @@
+/******************************** Style Guide ****************************************/
+:root {
+    /****************** Colors ******************/
+    --blue900: #13183F;
+    --blue600: #666CA3;
+    --pink600: #F74780;
+    --pink300: #FFA7C3;
+    --grey: #83869A;
+    --white: #FFFFFF;
+
+    /******************** Typografic *****************/
+    --fuentePrincipal: "Plus Jakarta Sans", sans-serif;
+}
