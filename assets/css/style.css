@@ -86,3 +86,9 @@ img {
     max-width: 120rem;
     margin: 0 auto;
 }
+
+/******************************************** Navegacion *******************************/
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+}
