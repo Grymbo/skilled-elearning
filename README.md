@@ -24,3 +24,8 @@
 ## Typografia
 
 -"Plus Jakarta Sans"
+
+### Weigth
+-Extrabold 800
+-Bold 700
+-Medium 500
