@@ -7,6 +7,13 @@
     --pink300: #FFA7C3;
     --grey: #83869A;
     --white: #FFFFFF;
+    --grapink: #F02AA6;
+    --graora: #FF6F48;
+    --grapur: #4851FF;
+
+    /******************* Gradients *****************************/
+    --gradientPink: linear-gradient(to bottom, var(--graora) 0%, var(--grapink) 100%);
+    --gradientPurple: linear-gradient(to bottom, var(--grapur) 0%, var(--grapink) 100%);
 
     /******************** Typografic *****************/
     --fuentePrincipal: "Plus Jakarta Sans", sans-serif;
