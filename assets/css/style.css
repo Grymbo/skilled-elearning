@@ -78,7 +78,8 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 100%;
+    display: block; /* Para eliminar posibles espacios extra */
+    max-width: 100%; /* Asegúrate de que no sobrepase el contenedor */
 }
 
 /********************************************** Utilidades *******************************/
@@ -105,11 +106,31 @@ img {
     width: 19rem;
     height: 6rem;
     font-size: 2.3rem;
+    border: 1px solid;
 }
 .navegacion__boton:hover {
     background-color: var(--blue600);
 }
 
 /***************************************** Hero ***************************************/
-.hero__imagen {
+.hero__titulo {
+    color: var(--blue900);
+    padding-bottom: 3rem;
+}
+.hero__descripcion {
+    padding-bottom: 3rem;
+    color: var(--grey);
+}
+.hero_boton {
+    background: var(--gradientPink);
+    color: var(--white);
+    border-radius: 5rem;
+    border: 1px solid;
+    width: 19rem;
+    height: 6rem;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+.hero_boton:hover {
+    filter: var(--filterrr);
 }
