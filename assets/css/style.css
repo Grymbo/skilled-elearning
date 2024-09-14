@@ -109,3 +109,7 @@ img {
 .navegacion__boton:hover {
     background-color: var(--blue600);
 }
+
+/***************************************** Hero ***************************************/
+.hero__imagen {
+}

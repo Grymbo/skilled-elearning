@@ -28,7 +28,14 @@
     <button class="hero_boton">
       Get Started
     </button>
-    <img src="" alt="" class="hero__imagen">
+    <picture>
+      <!-- Imagen para móvil -->
+      <source media="(max-width: 768px)" srcset="assets/images/image-hero-mobile.png">
+      <!-- Imagen para tablet (entre 769px y 1024px) -->
+      <source media="(min-width: 768px)" srcset="assets/images/image-hero-tablet.png">
+      <!-- Imagen para escritorio -->
+      <img src="assets/images/image-hero-desktop.png" alt="Descripción de la imagen">
+  </picture>
   </section>
 
 
