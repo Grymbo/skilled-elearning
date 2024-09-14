@@ -15,6 +15,9 @@
     --gradientPink: linear-gradient(to bottom, var(--graora) 0%, var(--grapink) 100%);
     --gradientPurple: linear-gradient(to bottom, var(--grapur) 0%, var(--grapink) 100%);
 
+    /***************** Hover Gradient ***************/
+    --filterrr: brightness(1.7);
+
     /******************** Typografic *****************/
     --fuentePrincipal: "Plus Jakarta Sans", sans-serif;
 
