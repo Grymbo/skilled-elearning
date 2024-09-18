@@ -124,6 +124,12 @@ img {
 }
 
 /***************************************** Hero ***************************************/
+@media (min-width: 768px){
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 .hero__titulo {
     color: var(--blue900);
     padding-bottom: 3rem;
