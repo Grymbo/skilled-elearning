@@ -104,6 +104,9 @@ img {
 }
 .navegacion__boton {
     background-color: var(--blue900);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: var(--white);
     border-radius: 5rem;
     width: 19rem;
@@ -126,6 +129,9 @@ img {
 }
 .hero_boton {
     background: var(--gradientPink);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: var(--white);
     border-radius: 5rem;
     border: 1px solid;
@@ -166,4 +172,33 @@ img {
     font-weight: 700;
     font-size: 1.8rem;
     line-height: 2.7rem;
+}
+
+/********************************* Footer ***************************************/
+.footer {
+    background-color: var(--blue900);
+    margin-top: 4rem;
+}
+.footer__contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__contenido-titulo {
+    color: var(--white);
+}
+.footer__contenido-boton {
+    background: var(--gradientPurple);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    border-radius: 5rem;
+    width: 19rem;
+    height: 6rem;
+    font-size: 2.3rem;
+    border: 1px solid var(--gradientPurple);
+}
+.footer__contenido-boton:hover {
+    filter: var(--filterrr);
 }
