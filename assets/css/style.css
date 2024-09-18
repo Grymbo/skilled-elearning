@@ -137,3 +137,33 @@ img {
 .hero_boton:hover {
     filter: var(--filterrr);
 }
+
+/************************************* Content ************************************/
+.content__titulo {
+    background: var(--gradientPink);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    color: var(--white);
+}
+.content__card {
+    padding: 4rem;
+    margin-top: 4rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+.content__card-img {
+    display: flex;
+    margin-top: -6.5rem;
+    
+}
+.content__card-descripcion {
+    color: var(--grey);
+}
+.content__card-boton {
+    background-color: var(--white);
+    border: 0px solid var(--white);
+    color: var(--pink600);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
