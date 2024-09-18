@@ -89,6 +89,11 @@ img {
 .container {
     margin:0 3rem;
 }
+@media (min-width: 768px){
+    .container {
+        margin: 0 6rem;
+    }
+}
 @media (min-width: 1050px){
     .container {
         max-width: 120rem;
