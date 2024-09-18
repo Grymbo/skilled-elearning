@@ -172,6 +172,13 @@ img {
         column-gap: 4rem;
     }
 }
+@media (min-width: 1024px){
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 4rem;
+    }
+}
 .content__titulo {
     background: var(--gradientPink);
     padding: 2rem;
