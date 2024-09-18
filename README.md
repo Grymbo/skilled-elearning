@@ -1,4 +1,5 @@
 # Skilled E-Learning Landin-Page
+A landing page I applied color gradient, added and removed brightness, colors for the hover of the buttons, managed three different types of images, one for each version of my page
 
 ## Introducction
 
